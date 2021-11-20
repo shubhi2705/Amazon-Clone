@@ -4,7 +4,7 @@
   .product__container{
       display: flex;
       flex-direction: column;
-      /* background-color: white; */
+      background-color: white;
       z-index: 1;
       align-items: center;
       justify-content: center;
@@ -23,7 +23,9 @@
   }
   .product__info{
       height: 100px;
+      padding:10px;
       margin-bottom: 15px;
+    width:100%;
   }
   .product__price{
       margin-top:0px !important;
